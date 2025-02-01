@@ -1,4 +1,4 @@
-**Stone-Paper-Scissors Game in C**
+# Stone-Paper-Scissors Game in C
 
 **Description:**
 
