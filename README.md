@@ -4,11 +4,11 @@
 
 This is a simple Stone-Paper-Scissors game implemented in C. The user plays against the computer, which randomly selects its choice. The game follows the standard rules:
 
-Stone (s) beats Scissors (z)
+- **Stone (s) beats Scissors (z)**
 
-Scissors (z) beats Paper (p)
+- **Scissors (z) beats Paper (p)**
 
-Paper (p) beats Stone (s)
+- **Paper (p) beats Stone (s)**
 
 If both the user and computer choose the same option, it's a draw.
 
@@ -26,13 +26,13 @@ The result is displayed, showing whether the user won, lost, or if the game was 
 
 **About srand() and rand():**
 
-**srand(unsigned int seed):**
+- **srand(unsigned int seed):**
 
 Initializes the random number generator.
 
 Using srand(time(NULL)) ensures that each execution generates different random numbers.
 
-**rand():**
+- **rand():**
 
 Returns a pseudo-random integer.
 
@@ -40,17 +40,17 @@ The program uses rand() % 100 to generate a number between 0 and 99, which deter
 
 **Sample Output**
 
-Enter s for STONE, p for PAPER and z for SCISSOR
+`Enter s for STONE, p for PAPER and z for SCISSOR`
 
 User Input:
 
-s
+`s`
 
 Program Output:
 
-Wow! You have won the game!
+`Wow! You have won the game!`
 
-You choose: s and Computer choose: z
+`You choose: s and Computer choose: z`
 
 **License:**
 
