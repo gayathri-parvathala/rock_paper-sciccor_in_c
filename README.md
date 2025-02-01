@@ -38,14 +38,20 @@ Returns a pseudo-random integer.
 
 The program uses rand() % 100 to generate a number between 0 and 99, which determines the computer's choice.
 
-Sample Output
+**Sample Output**
 
-**Enter s for STONE, p for PAPER and z for SCISSOR
+Enter s for STONE, p for PAPER and z for SCISSOR
+
+User Input:
+
 s
-Wow! You have won the game!
-You choose: s and Computer choose: z**
 
-Issues and Improvements
+Program Output:
+
+Wow! You have won the game!
+
+You choose: s and Computer choose: z
+
 **License:**
 
 This project is open-source and can be modified or distributed freely.
